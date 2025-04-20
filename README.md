@@ -2,7 +2,23 @@
 
 This project involves scraping Arabic news articles from Al Jazeera, analyzing their semantic similarity to a reference sentence using a multilingual **Sentence Transformer**, and scoring them accordingly. The ultimate goal is to build a dataset for potential fine-tuning of language models or for further NLP research.
 
+
 ---
+
+##  What I Learned (Synthesis)
+
+Through this lab, I gained practical experience in combining multiple key areas of Natural Language Processing and Machine Learning workflows:
+
+- 🌍 **Multilingual NLP**: Learned how to use sentence-transformers for understanding Arabic language semantics.
+- 🧠 **Semantic Similarity**: Understood the importance of sentence embeddings and cosine similarity in assessing the meaning of text.
+- 🧼 **Data Preprocessing**: Applied effective Arabic text cleaning and tokenization techniques, including the use of NLTK's stopword removal.
+- 🕷️ **Web Scraping**: Built a custom scraper to extract real-world Arabic news data from Al Jazeera using BeautifulSoup.
+- 📊 **Dataset Creation**: Transformed raw scraped data into a structured dataset ready for training or evaluation.
+- 🔗 **Model Integration**: Integrated pre-trained models like `paraphrase-multilingual-MiniLM-L12-v2` into a real-world pipeline.
+- 🔍 **Evaluation Metrics**: Used semantic scores (on a 0–10 scale) to quantify relevance of news content to a given reference topic.
+
+This hands-on lab reinforced both foundational and advanced skills essential in building real-world AI/NLP applications.
+
 
 ## 📌 Features
 
